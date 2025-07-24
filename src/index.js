@@ -7,5 +7,13 @@ const dropDownContent = document.getElementById("dropdown-content");
 
 dropDownButton.addEventListener("click", () => {
     dropDownContent.classList.toggle("show");
+});
+window.addEventListener("click",(event) => {
+    if(!dropDownButton.contains(event.target)){
+        if(dropDownContent.classList.contains("show")){
+            dropDownContent.classList.remove("show");
+            
+        }
+    }
 })
   
