@@ -17,4 +17,21 @@ body {
   background-color:antiquewhite;
   padding: 0;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#dropdown-container{
+  position: relative;
+}
+#dropdown-button{
+  padding: 14px;
+  border-radius: 12px;
+  background-color: chocolate;
+  font-size: 1.1rem;
+  color: aliceblue;
+  border: none;
+}
+#dropdown-content a{
+  text-decoration: none;
 }
